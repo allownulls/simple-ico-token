@@ -1,0 +1,22 @@
+{
+  "name": "sbcon",
+  "version": "1.0.0",
+  "description": "1. Название и обозначение токена\r 1а. Знаки после запятой - минимальная доля\r 2. Адрес владельца\r 3. Сколько токенов выпускаем\r 4. Min cap, hard cap\r 5. Цена токена\r 6. Минимальный объем продажи\r 7. Начало и конец ICO\r 8. Количество и адреса координаторов, сколько голосов нужно для принятия решения\r 9. Условия отмены ICO координаторами\r 10. Условия штатного вывода денег.",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "^0.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "truffle-wallet-provider": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
